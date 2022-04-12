@@ -1,9 +1,10 @@
-import SimpleInput from './components/SimpleInput';
+import BasicForm from './components/BasicForm.jsx';
+import ReducerForm from './components/ReducerForm';
 
 function App() {
   return (
     <div className="app">
-      <SimpleInput />
+      <ReducerForm />
     </div>
   );
 }
